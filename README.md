@@ -67,3 +67,13 @@ cd zehlendorf-farm
 npm install
 
 npm run dev
+
+To enable form submission to email:
+
+Create an account on EmailJS
+
+Set up a service, template, and get a user_id
+
+Replace form handlers in Contact.jsx and Order.jsx with emailjs.send(...)
+
+
